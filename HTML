@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="Vendors/css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="Resources/css/grid.css" type="text/css">
+        <link rel="stylesheet" href="Resources/css/queries.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+        <title>Kaizen</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="sticky">
+                <div class="row">
+                    <img src="Resources/Images/Kaizen-Logo-2.png" alt="Butterfly Logo" class="logo">
+                    <img src="Resources/Images/Kaizen-bw-2.jpg" alt="Butterfly Logo" class="logo-black">
+                    <ul class="main-nav">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>    
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1> "I always strive for continuous improvement" </h1>
+                <a class="btn btn-full" href="">Work with me</a>
+                <a class="btn btn-ghost" href="">Show me more</a>
+            </div> 
+        </header>
+
+        <section class="section-features js--section-features">
+            <div class="row">
+                <h2> Who Am I?</h2>
+                <p class="long-copy">
+                    My name is Saundra Johnson and I created this portfolio page to showcase my design skills. Some facts about me are my full-time job is a health instructor while part-time I build responsive web pages!<br>
+                    <br>Here are some skills that I can do for you: 
+                </p>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 box">
+                        <ion-icon name="laptop" class="icon-big"></ion-icon>
+                    <h3>Landing Page Design</h3>
+                    <p>I will prepare and deliver an responsive landing page that wows your clients and helps you give them the information they need from you to buy your services.</p>
+                </div>
+                <div class="col span-1-of-3 box">
+                        <ion-icon name="search" class="icon-big"></ion-icon>
+                    <h3>SEO Optimization</h3>
+                    <p>Together we work together to put together a game plan to optimize your landing page to adhere to the best organic SEO strategies available so that you can show up better in Google Rankings right out the gate.</p>
+                    </div>
+                 <div class="col span-1-of-3 box">
+                     <img src="Resources/Images/google-analytics.png" alt="Google Analytics logo" class="icon-one">
+                    <h3>Google Analytics</h3>
+                     <p>I will implement Google Analytics into your site so that you may track incoming traffic to better serve the needs of your business.</p>
+                    </div>
+            </div>
+        </section>
+
+            <section class="section-form" id="contact"> 
+                <div class="row">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="row">
+                    <form method ="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="text" name="Name" id="name" placeholder="Your name" required autocomplete="off">
+                            </div>
+                        </div>    
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="email" name="Email" id="email" placeholder="Your email" required autocomplete="off">
+                            </div>
+                        </div>    
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="find-us">How did you find me?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <select name="find-us" id="find-us">
+                                    <option value="blog">Blog</option>
+                                    <option value="twitter">Twitter</option>
+                                    <option value="search" selected>LinkedIn</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="upwork">Upwork</option> 
+                                    <option value="other">Other</option> 
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Newsletter</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="checkbox" name="newsletter" id="newsletter" checked> Keep me updated
+                            </div>
+                        </div>    
+                        <div class="row">
+                             <div class="col span-1-of-3">
+                                <label>What can I do for you?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea name="message" placeholder="How can I assist your needs?"></textarea>
+                            </div>
+                        </div>    
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </div>    
+                    </form>
+                 </div>
+           </section>
+
+           <footer>
+                <div class="row">
+                    <div class="col span-1-of-2">
+                        <ul class ="footer-nav">
+                            <li> <a href="#">About Me</a></li>
+                            <li> <a href="https://athletikgod.wordpress.com/" target="_blank">Blog</a><li>    
+                        </ul>
+                    </div>
+                    <div class="col span-1-of-2">
+                        <ul class="social-links">
+                            <li> <a href="https://www.facebook.com/scheeks44" target="_blank" > <ion-icon name="logo-facebook" class="icon-big ion-social-facebook"></ion-icon> </a></li>
+                            <li> <a href="https://www.instagram.com/s_johnson44" target="_blank"> <ion-icon name="logo-instagram" class="icon-big ion-social-instagram"></ion-icon> </a></li>
+                            <li> <a href="https://www.linkedin.com/in/saundrajohnson44/" target="_blank"> <ion-icon name="logo-linkedin" class="icon-big ion-social-linkedin"></ion-icon> </a></li>
+                            <li> <a href="https://www.twitter.com/TheRugbyCoder" target="_blank"> <ion-icon name="logo-twitter" class="icon-big ion-social-twitter"></ion-icon> </a></li>
+                            <li> <a href="https://athletikgod.wordpress.com/" target="_blank"> <ion-icon name="logo-wordpress" class="icon-big ion-social-wordpress"></ion-icon> </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Copyright: &copy; Kaizen </p>
+                        <p> Created with love by Saundra Johnson and under the watchful eye of my sleepy dog Fauna.</p>
+                </div>
+           </footer>
+
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="Resources/Javascript/script.js"></script>
+        <script src="Vendors/js/jquery.waypoints.min.js"></script>
+    </body>
+
+</html>
